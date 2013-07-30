@@ -1,0 +1,10 @@
+.container{
+    width : 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+.container video[autoplay]  {
+    width: 400px;
+    height: 300px;
+
+}
