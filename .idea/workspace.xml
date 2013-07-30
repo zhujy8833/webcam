@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94532ec6-d316-43f9-ae6a-fbe84fd94e90" name="Default" comment="" />
+    <list default="true" id="94532ec6-d316-43f9-ae6a-fbe84fd94e90" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/FilterView.js" afterPath="$PROJECT_DIR$/scripts/FilterView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/wc.js" afterPath="$PROJECT_DIR$/scripts/wc.js" />
+    </list>
     <ignored path="webcam.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375159837908" ignored="false" />
-    <file path="/index.html" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375163053141" ignored="false" />
-    <file path="/webcam.js" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375162968034" ignored="false" />
+    <file path="/index.html" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375163454012" ignored="false" />
+    <file path="/webcam.js" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375165204489" ignored="false" />
     <file path="/WebcamModel.js" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375161137028" ignored="false" />
     <file path="/wc.js" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375161982833" ignored="false" />
-    <file path="/all.css" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375163144586" ignored="false" />
+    <file path="/all.css" changelist="94532ec6-d316-43f9-ae6a-fbe84fd94e90" time="1375165115524" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="701" selection-end="701" vertical-scroll-proportion="0.7680723">
+            <state line="7" column="59" selection-start="357" selection-end="357" vertical-scroll-proportion="-0.041666668">
               <folding />
             </state>
           </provider>
@@ -52,7 +57,7 @@
       <file leaf-file-name="all.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/all.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="1" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+            <state line="10" column="25" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterView.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FilterView.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/FilterView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
+            <state line="25" column="28" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.23433875">
               <folding />
             </state>
           </provider>
@@ -79,7 +84,7 @@
       <file leaf-file-name="wc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/wc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+            <state line="10" column="89" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#152#0" expanded="false" />
               </folding>
@@ -98,6 +103,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -110,10 +116,10 @@
         <option value="$PROJECT_DIR$/scripts/WebcamModel.js" />
         <option value="$PROJECT_DIR$/scripts/wc.js.html" />
         <option value="$PROJECT_DIR$/wc.js" />
-        <option value="$PROJECT_DIR$/scripts/wc.js" />
-        <option value="$PROJECT_DIR$/scripts/FilterView.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/all.css" />
+        <option value="$PROJECT_DIR$/scripts/FilterView.js" />
+        <option value="$PROJECT_DIR$/scripts/wc.js" />
       </list>
     </option>
   </component>
@@ -255,17 +261,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1260" height="693" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19895288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.6701571" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497979" sideWeight="0.80104715" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -336,13 +342,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/FilterView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/filter.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -350,16 +349,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="59" selection-start="357" selection-end="357" vertical-scroll-proportion="-0.041666668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+        <state line="10" column="25" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/wc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+        <state line="10" column="89" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#152#0" expanded="false" />
           </folding>
@@ -375,9 +381,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/scripts/FilterView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="701" selection-end="701" vertical-scroll-proportion="0.7680723">
+        <state line="25" column="28" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.23433875">
           <folding />
         </state>
       </provider>

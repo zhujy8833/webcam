@@ -8,5 +8,5 @@
 $(function(){
     //create model, view by passing model
     var model = new WebcamModel({filter : ""});
-    var view = new WebcamFilter({"model" : model, "el" : document.getElementById("container")});
+    var view = new WebcamFilter({"model" : model, "el" : document.getElementById("filter-container")});
 })

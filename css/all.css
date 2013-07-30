@@ -6,5 +6,8 @@
 .container video[autoplay]  {
     width: 400px;
     height: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid red;
 
 }

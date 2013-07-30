@@ -10,21 +10,28 @@ var WebcamFilter = Backbone.View.extend({
                 'hue-rotate2', 'hue-rotate3', 'saturate', 'invert', ''],
     initialize : function() {
         var view = this;
-        window.URL = window.URL || window.webkitURL;
-        var video = view.$el.find("video");
-        if(view.hasUserMedia()) {
-           navigator.getUserMedia({video: true, audio: true},function(stream) {
-               video.src = window.URL.createObjectURL(stream);
-           }, onFailSoHard);
+        view.windowURL = window.URL || window.webkitURL;
+        var video = view.$el.find("video")[0] ? view.$el.find("video")[0] : document.querySelector("video");
+        var onFailure = function(error) {
+            if(e.code==1) {
+                alert('User denied access to their camera');
+            }else {
+                alert('getUserMedia() not supported in your browser.');
+            }
+        };
+        if(view.getUserMedia()) {
+           view.getUserMedia({video: true, audio: true}, function(stream) {
+               video.src = view.windowURL.createObjectURL(stream);
+           }, onFailure);
         } else {
            alert ("Sorry, it seems your browser doesn't support this feature... :(");
         }
 
 
     },
-    hasUserMedia : function() {
-        return navigator.getUserMedia  = navigator.getUserMedia || navigator.webkitGetUserMedia ||
-            navigator.mozGetUserMedia || navigator.msGetUserMedia;
+    getUserMedia : function() {
+        return navigator.getUserMedia || navigator.webkitGetUserMedia ||
+               navigator.mozGetUserMedia || navigator.msGetUserMedia;
     }
 
 });
