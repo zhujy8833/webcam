@@ -12,19 +12,21 @@ var WebcamFilter = Backbone.View.extend({
         var view = this;
         view.windowURL = window.URL || window.webkitURL;
         var video = view.$el.find("video")[0] ? view.$el.find("video")[0] : document.querySelector("video");
-        var onFailure = function(error) {
+        var onFailure = function(e) {
             if(e.code==1) {
                 alert('User denied access to their camera');
             }else {
                 alert('getUserMedia() not supported in your browser.');
             }
         };
+        var getUserMediaFunction;
         if(view.getUserMedia()) {
-           view.getUserMedia({video: true, audio: true}, function(stream) {
+            getUserMediaFunction = view.getUserMedia();
+            getUserMediaFunction.call(navigator, {video: true, audio: true}, function(stream) {
                video.src = view.windowURL.createObjectURL(stream);
-           }, onFailure);
+            }, onFailure);
         } else {
-           alert ("Sorry, it seems your browser doesn't support this feature... :(");
+            alert ("Sorry, it seems your browser doesn't support this feature... :(");
         }
 
 
